@@ -5,9 +5,7 @@ wget -O ~/FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-la
 sudo tar xjf ~/FirefoxSetup.tar.bz2 -C /opt/
 #creating symbolic link to system binary
 sudo ln -s /opt/firefox/firefox /usr/bin/
-
 #setup desktop icon
-
 sudo wget "https://raw.githubusercontent.com/sudiplun/.desktop/main/Firefox.desktop" -P /usr/local/share/applications
 #removing download setup file
 echo"it's better to rm ~/FirefoxSetup.tar.bz2 sure.........!"
