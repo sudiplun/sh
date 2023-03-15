@@ -1,4 +1,5 @@
 #!/bin/bash
+#this script first archive folder into .tar.gz then encrypt using gpg (you must supply key name instead of ram.)
 # Change the directory to the current directory
 cd "$(dirname "$0")"
 # Loop through each directory in the current directory
