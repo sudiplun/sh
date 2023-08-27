@@ -4,7 +4,7 @@ sudo echo -e "\033[1m\033[7mStarting system updates...\033[0m"
 
 sudo dnf -y update
 sudo dnf -y upgrade
-sudo flatpak -y update
+flatpak -y update
 
 #sudo dnf -y autoremove
 #sudo dnf -y clean all
